@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULS E-LEARN</title>
+    <style>
+        body {
+            background: linear-gradient(111deg, #f0f0f0, #ffffff); /* Hafif degrade arka plan */
+            color: #333333; /* Koyu gri yazı rengi */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* İçeriği yukarı hizala */
+            min-height: 100vh;
+            overflow-x: hidden; /* Yatay taşmayı engelle */
+        }
+
+        h1 {
+            color: #ff5733; /* Turuncu başlık rengi */
+            font-size: 4em; /* Büyük başlık */
+            margin-top: 30px; /* Üstten boşluk */
+            margin-bottom: 100px; /* Başlıktan sonra daha fazla boşluk */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+            letter-spacing: 2px; /* Harf aralığı */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px; /* Butonlar arası boşluk */
+            width: 80%; /* Butonların kapladığı alanın genişliği */
+            max-width: 800px; /* Maksimum genişlik */
+            margin-bottom: 50px; /* Alt boşluk */
+        }
+
+        .button-link {
+            background-color: #333333; /* Koyu gri buton rengi */
+            color: #ffffff; /* Beyaz yazı rengi */
+            font-size: 1.6em; /* Büyük font boyutu */
+            font-weight: bold;
+            padding: 20px 40px; /* Buton içi boşluk */
+            border: none; /* Kenarlık yok */
+            border-radius: 10px; /* Yuvarlatılmış köşeler */
+            width: 100%; /* Tam genişlikte */
+            text-align: center; /* Metin ortalama */
+            cursor: pointer; /* Tıklanabilir işaretçi */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+            transition: background-color 0.4s, transform 0.3s, box-shadow 0.3s;
+            text-decoration: none; /* Alt çizgi yok */
+            display: block; /* Butonu blok olarak göster */
+        }
+
+        .button-link:hover {
+            background-color: #ff5733; /* Hover turuncu rengi */
+            transform: translateY(-5px); /* Hover yukarı kaldırma efekti */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Hover gölge efekti */
+        }
+    </style>
+</head>
+<body>
+    <h1>ULS E-LEARN</h1>
+    <div class="container">
+        <a href="D1/index.html" class="button-link">Deneme Eğitim 1</a>
+        <a href="egitim2.html" class="button-link">Future Use</a>
+        <a href="egitim3.html" class="button-link">Future Use</a>
+        <a href="egitim4.html" class="button-link">Future Use</a>
+        <!-- Daha fazla buton ekleyebilirsiniz -->
+    </div>
+</body>
+</html>
